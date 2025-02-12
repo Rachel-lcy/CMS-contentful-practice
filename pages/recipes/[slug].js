@@ -60,7 +60,7 @@ export default function RecipeDetails({ recipe }) {
           <span key={ing}>{ ing }</span>
         ))}
       </div>
-        
+
       <div className="method">
         <h3>Method:</h3>
         <div>{documentToReactComponents(method)}</div>
