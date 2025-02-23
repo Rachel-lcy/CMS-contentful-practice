@@ -23,14 +23,14 @@ export default function RecipeCard({recipe}) {
         </div>
 
         <div className="actions">
-          <Link href={'./recipes/' + slug}><a>Cook This</a></Link>
+          <Link href={'./recipes/' + slug}><a>Details</a></Link>
         </div>
       </div>
 
       <style jsx> {
         `
         .card {
-          transform: rotateZ(-1deg);
+          transform: rotateZ(0deg);
         }
         .content {
           background: #fff;
@@ -58,7 +58,7 @@ export default function RecipeCard({recipe}) {
         }
         .actions a {
           color: #fff;
-          background: #f01b29;
+          background:rgb(179, 142, 144);
           padding: 16px 24px;
           text-decoration: none;
         }
