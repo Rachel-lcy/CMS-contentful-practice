@@ -1,6 +1,6 @@
 import { createClient } from "contentful";
 import RecipeCard from "../components/RecipeCard";
-
+import React from 'react'
 
 export async function getStaticProps(){
  const client = createClient({
