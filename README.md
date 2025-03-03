@@ -30,6 +30,12 @@ http://localhost:3000
 `3. Add entities(recipes)
 `4. Go to setting Menu-check API keys an use it to connect with VsCOde(.env.local)
 
+## Resources
+
+- [ use tailwindCSS cheat sheet](https://nerdcave.com/tailwind-cheat-sheet)
+
+-[ React render for the Contentful rich text](https://www.npmjs.com/package/@contentful/rich-text-react-renderer)
+
 ## Testing Procedures
 
 ### 1. Unit Testing (Jest + React Testing Library)

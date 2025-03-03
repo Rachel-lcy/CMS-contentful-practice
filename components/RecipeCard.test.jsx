@@ -28,7 +28,6 @@ describe("RecipeCard Component", () => {
   test("renders RecipeCard with title, cooking time, and image", () => {
     render(<RecipeCard recipe={mockRecipe} />);
 
-
     expect(screen.getByRole("heading", { level: 4 })).toHaveTextContent("Shanghai Xiaolongbao");
 
 
@@ -36,7 +35,7 @@ describe("RecipeCard Component", () => {
 
 
     const img = screen.getByRole("img");
-    expect(img).toHaveAttribute("src", "https://example.com/image.jpg");
+    expect(img).toHaveAttribute("src", "https://images.ctfassets.net/2v0lyen0ruy5/ncLqJiMnY1UjnP…bcc073250fe984cf23675b85/Shanghai_Xiaolongbao.jpg");
     expect(img).toHaveAttribute("width", "500");
     expect(img).toHaveAttribute("height", "300");
     expect(img).toHaveAttribute("alt", "Shanghai Xiaolongbao");
