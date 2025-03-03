@@ -38,11 +38,11 @@ http://localhost:3000
 
 - [ use tailwindCSS cheat sheet](https://nerdcave.com/tailwind-cheat-sheet)
 
--[ React render for the Contentful rich text](https://www.npmjs.com/package/@contentful/rich-text-react-renderer)
+- [ React render for the Contentful rich text](https://www.npmjs.com/package/@contentful/rich-text-react-renderer)
 
--[Contentful instructions](https://www.contentful.com/developers/docs/references/content-delivery-api/)
+- [Contentful instructions](https://www.contentful.com/developers/docs/references/content-delivery-api/)
 
--[About URL Slugs information](https://www.contentful.com/seo-guide/urls-redirects/)
+- [About URL Slugs information](https://www.contentful.com/seo-guide/urls-redirects/)
 
 ## Testing Procedures
 
